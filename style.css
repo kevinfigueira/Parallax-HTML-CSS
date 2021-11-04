@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+.page-container{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    width: 40rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.london, .eua, .paris, .brazil{
+    width: 100%;
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.london{
+    background-image: url(img/london.jpg);
+}
+.eua{
+    background-image: url(img/eua.jpg);
+}
+.paris{
+    background-image: url(img/paris.jpg);
+}
+.brazil{
+    background-image: url(img/rio.jpg);
+}
+.parallax{
+    background-attachment: fixed;
+}
